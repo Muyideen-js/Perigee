@@ -26,6 +26,8 @@ members = [
     "contracts/lending_strategy",
     # User-opted, versioned vault state migration with legacy compatibility.
     "contracts/vault_migration",
+    # Queued contract calls with configurable minimum execution delay.
+    "contracts/timelock_controller",
     # Circuit breaker, partial pause, timelocked unpause (#634).
     "contracts/vault_guard",
     # ERC-4626 tokenised vault (#631).
