@@ -74,6 +74,7 @@ pub mod validation;
 pub mod fee_validation;
 pub mod secure_ids;
 pub mod audit_log;
+pub mod session;
 pub mod metrics;
 pub mod input_sanitization;
 pub mod db;
